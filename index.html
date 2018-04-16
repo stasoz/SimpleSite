@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main page</title>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="slider.js"></script>
+<script src="slider.js"></script>
+<style>
+.mySlides {display:none;}
+</style>
+</script>
+</head>
+<body>
+	<div class="main">
+		<div class = "NameOfTeam">T.O.P-Game Studio</div>
+		<ul class="menu-main">
+  			<li><a href="games.html">Our Games</a></li>
+  			<li><a href="team.html">Our Team</a></li>
+		</ul>
+	</div>
+<div class="w3-content w3-section" style="max-width:1000px">
+  <img class="mySlides" src="http://nopixels.ru/uploads/posts/2015-03/1427534922_6.jpg" style="width:100%" height="400" >
+  <img class="mySlides" src="https://gta.com.ua/img/articles/gta5/screenshots/67.jpg" style="width:100%" height="400">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-UP5mhjqVU2aOTaZqNdNOJxRiCmEEN0v9oX-cyFpZ4B5tPiTE" style="width:100%" height="400">
+  <img class="mySlides" src="https://3dnews.ru/assets/external/illustrations/2017/12/25/963385/witcher3_en_wallpaper_the_witcher_3_wild_hunt_geralt_with_trophies_1920x1080_1449484678.png" style="width:100%" height="400">
+  <img class="mySlides" src="http://freshwallpapers.net/download/9294/1920x1080/download/olgierd-the-witcher-3-wild-hunt.jpg" style="width:100%" height="400">
+  <img class="mySlides" src="https://i.ytimg.com/vi/ub9JUDS_6i8/maxresdefault.jpg" style="width:100%" height="400">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7oTo3pirADveXubJ9xiPFBR_ddNCms2M0BBrl_BjdOSFNEYjQzw" style="width:100%" height="400">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJJ-Cex2g2zXL9M6YJbF7xGrsOp-Ghjt_OKbwIWg4C0WPYv9Rw2g" style="width:100%" height="400">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMlgTDueSwrQUr_NJLa82hl3bfm2Pl5LI-0mbOQbFgoCWmaJO4" style="width:100%" height="400">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000);
+}
+</script>
+
+
+		<br><br><br><br><br><br><br>
+		<div class = "social">
+				<a href="#"
+		         onclick="this.href='http://twitter.com/timeline/home?status='+document.title+'%20'+window.location.href+window.location.hash" target="_blank">
+		        <img src="images/3.png" width="50" height="50"></a>
+		   		<a href="#" onclick="this.href='https://www.facebook.com/stas.zgursky.1?ref=bookmarks'+window.location.href+window.location.hash" target="_blank">
+		        <img src="images/2.png" width="50" height="50"></a>
+		   		<a href="#"
+		         onclick="this.href='https://web.telegram.org/#/im='+window.location.href+window.location.hash" target="_blank">
+		        <img src="images/1.png" width="50" height="50"></a>
+		        <div id = "phone" >Contact Phone +3809973428 </div>
+	   </div>
+	</div>
+</body>
+</html>

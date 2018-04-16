@@ -1,0 +1,31 @@
+.characters
+{
+	float:left;
+	margin: 10px;
+}
+.description
+{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  font-size: 17px;
+  text-transform: uppercase;
+  position: relative;
+}
+.thumb1 img  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+    display: block;
+    float:left;
+ }
+ .w3-container
+{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+a
+{
+  text-decoration: none;
+}
